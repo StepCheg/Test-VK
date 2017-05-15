@@ -1,0 +1,52 @@
+PODS:
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - SwiftyVK (2.0.8)
+
+DEPENDENCIES:
+  - SDWebImage/WebP
+  - SwiftyVK (from `https://github.com/WE-St0r/SwiftyVK.git`)
+
+EXTERNAL SOURCES:
+  SwiftyVK:
+    :git: https://github.com/WE-St0r/SwiftyVK.git
+
+CHECKOUT OPTIONS:
+  SwiftyVK:
+    :commit: ed375b7a6f64539335627eb898b8bfc1bf0cf6e4
+    :git: https://github.com/WE-St0r/SwiftyVK.git
+
+SPEC CHECKSUMS:
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyVK: 81d1aa08ee5a5a09d4bd152b0cf1fd4ee46441c6
+
+PODFILE CHECKSUM: 6a045b87dd7f0eaefe82611d20bf60ac3d98839c
+
+COCOAPODS: 1.1.1
